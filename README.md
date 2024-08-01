@@ -47,6 +47,9 @@ npx shadcn-ui@latest init
 [Avatar installation](https://ui.shadcn.com/docs/components/avatar)
 ```bash
 npx shadcn-ui@latest add avatar
+npx shadcn-ui@latest add form
+npx shadcn-ui@latest add select
+npx shadcn-ui@latest add input
 ````
 
 
