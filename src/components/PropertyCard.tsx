@@ -27,7 +27,7 @@ export default function PropertyCard({ id,
     baths,
     image, }: PropertyCardProps) {
     return (
-        // <Link className='group' href='/'>
+         <div className='group'>
         <div className='border rounded-md overflow-hidden'>
             <div className='aspect-[16/10] overflow-hidden'>
                 <Image src={image} alt={name} width={400} height={420} className='w-full transition-transform group-hover:scale-105' />
@@ -59,6 +59,6 @@ export default function PropertyCard({ id,
                 </div>
             </div>
         </div>
-        // </Link>
+         </div>
     )
 }

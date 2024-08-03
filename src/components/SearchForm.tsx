@@ -52,7 +52,7 @@ export default function SearchForm() {
                 }} />
 
             <FormField control={form.control}
-                name='category'
+                name='categories'
                 render={({ field }) => {
                     return (
                         <FormItem>
@@ -79,7 +79,7 @@ export default function SearchForm() {
                             <FormLabel>Min Price</FormLabel>
                             <Select value={field.value} onValueChange={field.onChange}>
                                 <SelectTrigger>
-                                    <SelectValue placeholder=" Min Prices" />
+                                    <SelectValue placeholder="Min Prices" />
                                 </SelectTrigger>
                                 <SelectContent>
                                     {prices.map(price => <SelectItem key={price} value={price.toString()}>{price}</SelectItem>)}
